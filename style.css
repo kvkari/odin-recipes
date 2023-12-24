@@ -7,8 +7,9 @@ h1 {
     color: black;
     text-align: center;
     font-size: 75px;
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: 5px;
+
 }
 
 ul {
@@ -44,3 +45,4 @@ p.footer {
   a#odin:hover {
         color: white;
         background-color: #fe019a;
+}
