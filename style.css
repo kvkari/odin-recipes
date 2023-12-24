@@ -1,14 +1,46 @@
-* {
-    font-family: 'Courier New', Courier, monospace;
+body {
+    background-color: #fe019a;
 }
 
 h1 {
-    color: #75a3b9;
-    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
     text-align: center;
+    font-size: 75px;
     font-weight: 600;
+    letter-spacing: 5px;
 }
 
 ul {
-    background-color: #75a3b9;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
 }
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    background-color: #204ac8;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+
+p.footer {
+    text-align: center;
+}
+
+  a#odin:hover {
+        color: white;
+        background-color: #fe019a;
