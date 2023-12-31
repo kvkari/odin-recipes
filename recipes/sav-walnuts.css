@@ -34,32 +34,26 @@ ol {
     font-size: 14px;
 }
 
-/* unvisited link */
 a:link {
-    color: white;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: white;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: white;
-    background-color: #204ac8;
-  }
-  
-  /* selected link */
-  a:active {
-    color: white;
-  }
-
-p.footer {
-    text-align: center;
+  color: white;
 }
 
-  a#odin:hover {
-        color: white;
-        background-color: #fe019a;
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  background-color: #204ac8;
+}
+
+a:active {
+  color: white;
+}
+
+.image {
+  background-color: black;
+  border: 15px solid black;
+  width: 445px;
+  margin: 0 auto;
 }
