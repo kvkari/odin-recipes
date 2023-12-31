@@ -1,15 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
     background-color: #fe019a;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     text-align: center;
     font-size: 75px;
     font-weight: 900;
-    letter-spacing: 5px;
-
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 10px #204ac8;
+    border-style:double;
 }
 
 ul {
@@ -17,32 +29,25 @@ ul {
     font-size: 50px;
 }
 
-/* unvisited link */
-a:link {
+.recipes:link a {
     color: white;
   }
   
-  /* visited link */
-  a:visited {
+.recipes:visited a {
     color: white;
   }
   
-  /* mouse over link */
-  a:hover {
+.recipes:hover a {
     color: white;
     background-color: #204ac8;
   }
   
-  /* selected link */
-  a:active {
+.recipes:active a {
     color: white;
   }
 
-p.footer {
-    text-align: center;
-}
-
-  a#odin:hover {
-        color: white;
-        background-color: #fe019a;
+.footer {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
 }
